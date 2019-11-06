@@ -1,0 +1,216 @@
+\documentclass[11pt,a4paper]{jsarticle}
+%
+\usepackage[dvipdfmx]{graphicx}
+%
+\usepackage{tipa}
+\usepackage{natbib}
+\usepackage{url}
+\usepackage{gb4e}
+\usepackage{ascmac}
+\bibpunct[: ]{(}{)}{,}{a}{ }{,}
+%
+\setlength{\textwidth}{\fullwidth}
+\setlength{\textheight}{39\baselineskip}
+\addtolength{\textheight}{\topskip}
+\setlength{\voffset}{-0.5in}
+\setlength{\headsep}{0.3in}
+\setlength{\oddsidemargin}{0pt}
+\setlength{\evensidemargin}{0pt}
+\newcounter{tempcnt}
+\newcommand{\exn}[1]{%
+\setcounter{tempcnt}{\value{exx}}%
+\addtocounter{tempcnt}{#1}%
+\arabic{tempcnt}}
+%
+\title{\fontsize{16pt}{0pt}\selectfont ソロモン諸島のピジン(Pijin)語における従属節標識について}
+\author{栗田健太郎}
+\date{2019年10月30日}
+
+\markright{\footnotesize \sf 言語学卒論演習(2019-10-30)栗田健太郎}
+
+\begin{document}
+\maketitle
+\section{Pijin語について}
+\paragraph{Pijin語}\footnote{現地では単に\textit{pijin}と呼び、英語の文献では種類としてのピジン語を``pidgin language'', ソロモン諸島に存在する(本発表で扱う)言語を``Pijin''と表記することが多いようである。この資料においては前者をピジン言語、後者をPijin語と表記する。} ソロモン諸島の事実上の共通語。公用語の地位は与えられていない話し言葉
+
+\subsection{歴史と言語状況}
+\cite{phonology}
+\paragraph{歴史}
+\begin{itemize}
+  \item Melanesian Pidgins(Tok Pisin[PNG], Vanuatu[Bislama], \textbf{Pijin})の1つ
+  \item 豪クイーンズランドでのプランテーションに従事していた労働者がソロモン諸島へ持ち帰る
+  \item その後ソロモン諸島がイギリスに併合される(1893)$\rightarrow$イギリス人や他の島民と話す手段に
+  \item ソロモン諸島国内でもプランテーション開始(1920頃)$\rightarrow$様々な島から来た労働者へ広まる
+  \item 1960年頃から首都ホニアラでの主要言語に
+\end{itemize}
+
+\paragraph{ソロモン諸島の共通語として}
+\begin{itemize}
+  \item ソロモン諸島は言語的に多様、首都ホニアラでは64の言語が話されているという
+  \item 1つの言語を話す集団=wantok
+  \item wantokの間ではその言語を話し、wantokの異なる者同士が話すときにPijinを用いる
+  \item 都市化や教育の発展により、Pijinを用いる頻度は劇的に増加
+  \item 田舎部では依然第二言語であるが、都市部ではPijinを母語として育った人も増えている
+\end{itemize}
+\subsection{Pijin語と他言語}
+\paragraph{Pijin語と英語} 語彙供給源は英語。イギリスに支配されていた歴史的背景もあり、一帯の中で最も英語に近いと言われる
+
+\begin{quotation}
+  英語のPijin語への影響は直ちに明らかである。Pijin語の辞書\citep{yumi}を見れば、そこに定義されている語の95\%が英語からの借用語であることが分かる。地元のメラネシア語の影響も同様に明白で、広く行き渡っているが、一般的にはより捉えがたい。一般的に、英語の貢献は形式と主な意味のレベルでより大きく、一方、現地の言語の貢献は文法と派生的な意味のレベルでより大きくなっている。\citep{malaitan}\footnote{訳は発表者。原文: The influence of English on Pijin is immediately obvious. A scan through the Pijin dictionary (Simons and Young 1978) shows that 95 per cent of the words defined there have borrowed their form from English. However, the influence of local Melanesian languages is evident as well, equally as pervasive but generally more subtle. As a general rule the contribution of English has been more at the level of form and primary meaning, while the contribution of the local languages has been more at the level of grammar and extended meanings.}
+\end{quotation}
+\cite{nativization}
+\begin{itemize}
+  \item 都市化や母語化に伴い、都市部のPijin語は変化している
+  \item 都市の話者の多くはPijin語と英語双方の知識があるため、Pijin語も徐々に英語化?
+  \item 言語的なバリエーションは大きく、ラジオなどで用いられる英語に近いPijin語は話者の一部にとって英語でもPijin語でもない
+  \begin{itemize}
+    \item ``\textit{Diskaen Pijin ia hemi rabis tumas}'' (このPijin語は最悪だ)
+  \end{itemize}
+\end{itemize}
+
+この論文では都会のPijin語において、英語由来の単語が増えていること、英語にはない文法事項が消滅してきていることについて述べている。発表者の滞在中にも、疑問詞\textit{wanem}が\textit{what}に置き換わっている、主語の代名詞による繰り返しが消えている(あるいは、主語の数に関わらず常に単数形の代名詞\textit{hem}が用いられる)など、その進行ははっきりと感じた。ただしこの論文は、その理由は脱クレオール化にはなく、文法変化はあくまでPijin語自体の枠組みの中で起こっているとし、見かけ上の英語化は英語とPijin語とのコードスイッチングによるものであると結論づけている。
+
+\section{Pijin語の従属節標識について}
+Pijin語で手に入るまとまった書き言葉として、事前に新約聖書 \footnote{Bible.is \url{https://live.bible.is/bible/PISWBT/}に掲載されている本文を使用。テキストの提供者としてBible Society of the South Pacific, 翻訳者としてWycliffe Bible Translatorsがクレジットされている}をコーパス分析した。その結果、本来別の意味を持っている2つの単語が従属節標識のように使われていることが分かった: dat, fo。
+
+調査はホニアラ市内で高校生から60代までの9人の話者を対象に行われ、全員がホニアラに10年以上住んでいるが、出身がホニアラの人は3人だけで、Pijinが母語だという人は1人だった。全員が学校教育を受けていて、Pijin語と英語双方の知識を持っていた。
+
+これら2つの単語の意味を尋ねたところ、多くの場合は従来持っていた意味を説明されることが多かったため、調査では、従属節標識としてこれらの語が使われている例文をこちらから示し、この文が自然か、文章全体で不自然な部分があるかどうか尋ねた。その上で別の言い方は無いか、どのような状況でこう言うか等を尋ねた。終了後、調査の目的を伝えた上で、インフォーマント自身にdatやfoの使い方について聞いた。状況付きで例文を示してくれるインフォーマントもいた。
+
+\subsection{dat}
+\paragraph{従来の意味}
+\begin{itemize}
+  \item \cite{dictionary}: 形容詞接辞\textit{-fala}付きの形\textit{datfala}「その、それ」や名詞接辞\textit{-wan}付きの形\textit{datwan}「それ」が別々の項に建てられている
+  \item インフォーマントに\textit{dat}の意味を尋ねたところ、まず「それ」を指す用法を答える人が多かった
+  \item \textit{-fala}は現代のPijinでは無くても許容されることが多いようである。ただし\cite{dictionary}に変種としての記載は無い \footnote{グロスで用いる略号は基本的に\cite{prepositions}に従ったが、いくつかの必要な略号は補った: 1/2/3=1st/2nd/3rd person, SG=singular, DU=dual, PL=plural, INC=include, EXC=exclude, DEIC=deictic, PM=predicate marker, FUT=future, PERF=perfective, NEG=negative, DAT=dative, TOP=topic}
+\end{itemize}
+\begin{exe}
+\ex
+\gll \underline{Datfala} tri ia, hem long lan blong mi ia.\\
+\underline{that} tree DEIC 3SG at land of 1SG DEIC\\
+\glt `That tree is on my land.'
+\end{exe}
+\paragraph{名詞節を形成する従属節標識として}
+\begin{itemize}
+  \item 聖書中には673の用例。\textit{save dat} think that: 168, \textit{somaot dat} show that 87, \textit{lukim dat} seems that: 72...
+  \item 英語のthat節と同様に、名詞的従属節を作る標識として利用されている
+\end{itemize}
+\begin{exe}
+\ex
+\gll An yufala save \underline{dat} olketa samting ya i hapen tru nao.\\
+and 2PL think \underline{that} PL thing DEIC PM happen truly PERF\\
+\glt `And you all know that the things really happened.' (1TH 3:4)
+\end{exe}
+\begin{itemize}
+  \item Pijin語の辞書\cite{dictionary}や彼の文法概要\cite{syntax}、その他の入門書\cite{yumi}には記載がない
+  \item 他の資料にも記載はない……と思っていたが、今見つけてしまった
+\end{itemize}
+\cite{eric}
+\begin{quote}
+Some verbs in Pijin can take \underline{\texttt{dat*}} + SENTENCE as an object instead of a simple noun phrase.
+\begin{screen}
+NOTE: *There are many areas in the Solomons where \underline{\texttt{dat}} is not used: Speakers who don't use \underline{\texttt{dat}} will say that the two clauses with an intonation that suggests that they are two independent sentences, or use a word borrowed from a local language.
+\end{screen}
+\end{quote}
+
+\subparagraph{調査}
+(\exn{1}),(\exn{2})共に発表者が作った文である
+\begin{exe}
+\ex
+\gll Hemi talem \underline{dat} yu stap long hia.\\
+3SG-PM tell \underline{that} 2SG be at here\\
+\glt `He told that you are here.'
+\ex
+\gll Mi no save \underline{dat} hem nao draev.\\
+1SG NEG know \underline{that} 3SG TOP drive\\
+\glt `I didn't know that he will drive.'
+\end{exe}
+
+結果、全てのインフォーマントからこの文は適格であると認められた。意味の違いについて尋ねたところ、2つの文は完全に同じだと答えた。50代のインフォーマント\footnote{ガダルカナル島東部のAola村の出身で、母語はLengo[オーストロネシア語族、南東ソロモン諸語]。ホニアラに来てPijinを覚えたのは30年以上前}は自分以上の年代では\textit{dat}単体での使用は違和感を感じるかもしれないと答え、次のような3通りの言い方なら許されただろうと述べた。\textit{bae}は未来を示すマーカーだがPijin語にはっきりとした時制はなく\citep{eric}、発表者の感覚では他の節や文中の出来事から見た相対的な未来を示したいときに用いられる。
+
+\begin{exe}
+\exi{(\exn{-1}$'$)} Hemi talem \underline{bae} yu stap long hia.
+\exi{(\exn{-1}$''$)} Hemi talem \underline{dat} \underline{bae} yu stap long hia.
+\exi{(\exn{-1}$'''$)} Hemi talem yu stap long hia.
+\end{exe}
+
+その後60代のインフォーマント\footnote{マライタ島南部出身、母語はBaelelea[南東ソロモン諸語]}に尋ねたが、彼女はこのような傾向を見せず、(\exn{-1})から(\exn{-1}$'''$)すべての文章が等しく正しいと答えた。
+
+\subsection{fo}
+\paragraph{従来の意味}
+\cite{prepositions} \footnote{(\exn{1}),(\exn{2})はグロス引用, (\exn{3})のグロスは発表者}
+\begin{itemize}
+  \item 近縁のBislamaやTok Pisinにはない前置詞
+  \item 利益者を表す与格的な用法(\exn{1})と目的を示す用法(\exn{2})(\exn{3})がある
+  \item 目的を示す場合、後ろに動詞来る: 英語のtoが果たす役割に似ている
+\end{itemize}
+\begin{exe}
+\ex
+\gll Mitufala tekem kam samfala sugaken \underline{fo} iu.\\
+we.DU.EXC take DIR some sugarcane \underline{DAT} you.SG\\
+\glt `We brought you some sugarcane.'
+\end{exe}
+\begin{exe}
+\ex
+\gll An hemi baebae baem samfala tul \underline{fo} waka long hem.\\
+and he will buy some tool \underline{to} work LOC it\\
+\glt `And he'll buy some tools to work with.'
+\end{exe}
+\begin{exe}
+\ex
+\gll Ating iu kam \underline{fo} spoelem mifala ia!\\
+probably 2SG come \underline{to} destroy 1PL.EXC DEIC\\
+\glt `Probably you've come to destroy us!' (MRK 1:24)
+\end{exe}
+\paragraph{節を作る前置詞？として}
+\begin{itemize}
+  \item 聖書には\textit{fo}が主語＋動詞を伴って節を作る表現が多く存在する
+\end{itemize}
+\begin{exe}
+\ex
+\gll Yu mas tokstrong long olketa fo olketa mas falom.\\
+2SG must speak.strongly to 3PL \underline{to} 3PL must follow\\
+\glt `You must speak to them strongly enough to follow you.' (1T 6:3)
+\ex
+\gll Hemi tambu long Lo \underline{fo} yu stap wetem disfala woman ya.\\
+3SG-PM prohibitted in Law \underline{for} 2SG be with this woman DEIC\\
+\glt `It is prohibitted in Law for you to be with this woman.' (MAT 14:4)
+\end{exe}
+\begin{itemize}
+  \item (\exn{0})では意味的に主語にあたる節の後置が起こっている。これは英語のto不定詞でよく見られる現象である\citep[1062]{english}
+  \item しかし、節の主語は英語では別の前置詞句(for)で表される\citep[1061]{english}
+  \item 前置詞＋主語＋動詞の組み合わせは英語では許されない\citep[660]{english}
+\end{itemize}
+\subparagraph{調査}　(\exn{1}),(\exn{2}) 共に発表者の作った文
+\begin{exe}
+\ex
+\gll Mi laik \underline{fo} yu mekem tok blo yu tru.\\
+1SG want \underline{to} 2SG make telling of 2SG true\\
+\glt `I want you to talk truth.'
+\ex
+\gll Hemi tambu \underline{fo} mifala go insaet long disfala ples.\\
+3SG-PM prohibitted \underline{to} 1PL.EXC go inside at this place\\
+\glt `It is prohibitted for us to enter this place.'
+\end{exe}
+
+結果、こちらの文も全て適格であるとみなされた。インフォーマントにこの言い換え表現について尋ねたところ、いずれもこの前置詞句の後置を問題にしたものはなかった一方で、60代のインフォーマント\footnote{脚注5と同一の話者}は次のようなものを提案した。
+
+\begin{exe}
+\exi{(\exn{0}$'$)} Hemi tambu \underline{fo} mifala \underline{fo} go insaet long disfala ples.
+\end{exe}
+
+(\exn{0})との意味の違いはないが、こちらのほうがより「強い」印象を受けるという。\textit{fo}$+$単語$+$\textit{fo}の組み合わせは聖書コーパス中106件が見つかる。そのうちいくつが主語＋前置詞句の組み合わせかは数えていないが、元々2つの前置詞句からなっていた表現が、後ろの前置詞が省略されて節のようになったのかもしれない。ただし、それ以外の話者からこの置き換えが提案されることはなかった\footnote{7人で、Pijin語を母語とする高校生の話者も含む。(\exn{0})も(\exn{0}$'$)も同様に適格な文章であると判断された。}。
+
+\section{今後の展望}
+今回行った調査は非常に数が限られていて、特にPijin語が母語というインフォーマントをなかなか捕まえることができなかった。しかし、逆に国内の多様な言語状況の方から話を聞くことができたのは良かったように思う。
+
+今後卒論の締切までにソロモン諸島に滞在できる予定は無いが、ソロモン諸島出身の京都大学への留学生に協力を了解してもらっているので、今後もある程度の調査を続けられる予定である。
+
+\textit{fo}, \textit{dat}いずれも聖書に存在している従属節標識としての用法があることは分かったので、今後はその用法をさらに詳しく見ていく予定である。Pijin語のまとまった文法書は出版されていない\cite{syntax}ので、語彙供給源にもなっている英語の文法書\cite{english}と照らし合わせ、どの用法がPijin語で表現できるか試していく。
+
+\textit{dat}については現地調査の時点ではただ存在を示すだけで新規性があると思っていたが、\cite{eric}に記述があったために、今後はさらに考察が必要になる。
+
+\bibliographystyle{plainnat}
+\bibliography{main}
+
+\end{document}
