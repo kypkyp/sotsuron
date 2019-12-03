@@ -6,6 +6,7 @@
 \usepackage{natbib}
 \usepackage{url}
 \usepackage{gb4e}
+\usepackage{float}
 \usepackage{ascmac}
 \bibpunct[: ]{(}{)}{,}{a}{ }{,}
 %
@@ -24,14 +25,14 @@
 %
 \title{\fontsize{16pt}{0pt}\selectfont ソロモン諸島のピジン(Pijin)語における従属節標識について}
 \author{栗田健太郎}
-\date{2019年10月30日}
+\date{2019年12月4日}
 
-\markright{\footnotesize \sf 言語学卒論演習(2019-10-30)栗田健太郎}
+\markright{\footnotesize \sf 言語学卒論演習(2019-12-4)栗田健太郎}
 
 \begin{document}
 \maketitle
 \section{Pijin語について}
-\paragraph{Pijin語}\footnote{現地では単に\textit{pijin}と呼び、英語の文献では種類としてのピジン語を``pidgin language'', ソロモン諸島に存在する(本発表で扱う)言語を``Pijin''と表記することが多いようである。この資料においては前者をピジン言語、後者をPijin語と表記する。} ソロモン諸島の事実上の共通語。公用語の地位は与えられていない話し言葉
+\paragraph{Pijin語}\footnote{現地では単に\textit{pijin}と呼び、英語の文献では種類としてのピジン語を``pidgin language'', ソロモン諸島に存在する(本発表で扱う)言語を``Pijin''と表記することが多いようである。この資料においては前者をピジン言語、後者をPijin語と表記する。}\footnote{グロスで用いる略号は基本的に\cite{prepositions}に従ったが、いくつかの必要な略号は補った: 1/2/3=1st/2nd/3rd person, SG=singular, DU=dual, PL=plural, INC=include, EXC=exclude, DEIC=deictic, PM=predicate marker, FUT=future, PERF=perfective, NEG=negative, DAT=dative, TOP=topic} ソロモン諸島の事実上の共通語。公用語の地位は与えられていない話し言葉
 
 \subsection{歴史と言語状況}
 \cite{phonology}
@@ -68,7 +69,26 @@
   \end{itemize}
 \end{itemize}
 
-この論文では都会のPijin語において、英語由来の単語が増えていること、英語にはない文法事項が消滅してきていることについて述べている。発表者の滞在中にも、疑問詞\textit{wanem}が\textit{what}に置き換わっている、主語の代名詞による繰り返しが消えている(あるいは、主語の数に関わらず常に単数形の代名詞\textit{hem}が用いられる)など、その進行ははっきりと感じた。ただしこの論文は、その理由は脱クレオール化にはなく、文法変化はあくまでPijin語自体の枠組みの中で起こっているとし、見かけ上の英語化は英語とPijin語とのコードスイッチングによるものであると結論づけている。
+この論文では都会のPijin語において、英語由来の単語が増えていること、英語にはない文法事項が消滅してきていること、逆に英語の文法事項\footnote{形態的レベルでの最も明白な変化として、\cite{nativization}は英語の複数マーカーの借用について述べている。
+\begin{exe}
+  \exi{(i)} Olketa pleses ia. \hspace{0.6in}``These places."
+  \exi{(ii)} Olketa ples ia.
+  \exi{(iii)} Pleses ia.
+\end{exe}
+Pijin語で複数を表現するには、本来は名詞の屈折ではなく、三人称複数の代名詞である\textit{olketa}を名詞の前に付けて(ii)のように示していた(ただし義務的ではない)が、最近はその際に(i)のような複数接尾辞(\textit{-s},\textit{-es})が名詞に付くことがあるという。
+この論文では(iii)のように名詞接尾辞だけで複数を表す用例はないと書かれているが、私の観察では、\textit{olketa}無しで複数接尾辞が登場する例もたくさん見つかった。ただし、いずれも非常に英語的な表現の中や近くに見つかり、話者はPijin語本来の表現と区別しているように感じる。\cite{manguru}には多くの例が見られるが、書き言葉である聖書からは完全に排除されている。
+\begin{exe}
+  \exi{(iv)}
+  \gll Mifala traim fo duim samfala \underline{criterias} fo chusim \underline{which} \underline{areas} an \underline{sites}.\\
+  1PL.EXC try to do some criteria-PL for choose which area-PL and site-PL\\
+  \glt `We tried applying various criterias for choosing areas and sites.'(\cite{manguru}, 1分26秒)
+\end{exe}
+\textit{which}も\textit{criteria}もPijin語の辞書には登場しない単語である。この話者は他の部分では\textit{olketa(ota)}+名詞の形式も使っている。
+}がPijin語の中に入ってきていることについて述べている。発表者の滞在中にも、疑問詞\textit{wanem}が\textit{what}に置き換わっている、主語の代名詞による繰り返しが消えている(あるいは、主語の数に関わらず常に単数形の代名詞\textit{hem}が用いられる)など、その進行ははっきりと感じた。
+
+この論文は、その理由は脱クレオール化ではなく、文法変化はあくまでPijin語自体の枠組みの中で起こっているとし、見かけ上の英語化は英語とPijin語とのコードスイッチングによるものであると結論づけている。
+
+今回の従属節標識についても、\textit{dat}、\textit{fo}いずれも英語からの翻訳文体に多く見られ、英語からの影響があることは十分推測できるが、しかしいずれも英語の使い方と完全に同じわけではない。よって、私は見かけ上の英語化は脱クレオール化(英語との同化)ではなく現代のコードスイッチングがもたらしたものであるという\cite{nativization}の主張に賛成する。
 
 \section{Pijin語の従属節標識について}
 Pijin語で手に入るまとまった書き言葉として、事前に新約聖書 \footnote{Bible.is \url{https://live.bible.is/bible/PISWBT/}に掲載されている本文を使用。テキストの提供者としてBible Society of the South Pacific, 翻訳者としてWycliffe Bible Translatorsがクレジットされている}をコーパス分析した。その結果、本来別の意味を持っている2つの単語が従属節標識のように使われていることが分かった: dat, fo。
@@ -82,7 +102,7 @@ Pijin語で手に入るまとまった書き言葉として、事前に新約聖
 \begin{itemize}
   \item \cite{dictionary}: 形容詞接辞\textit{-fala}付きの形\textit{datfala}「その、それ」や名詞接辞\textit{-wan}付きの形\textit{datwan}「それ」が別々の項に建てられている
   \item インフォーマントに\textit{dat}の意味を尋ねたところ、まず「それ」を指す用法を答える人が多かった
-  \item \textit{-fala}は現代のPijinでは無くても許容されることが多いようである。ただし\cite{dictionary}に変種としての記載は無い \footnote{グロスで用いる略号は基本的に\cite{prepositions}に従ったが、いくつかの必要な略号は補った: 1/2/3=1st/2nd/3rd person, SG=singular, DU=dual, PL=plural, INC=include, EXC=exclude, DEIC=deictic, PM=predicate marker, FUT=future, PERF=perfective, NEG=negative, DAT=dative, TOP=topic}
+  \item \textit{-fala}は現代のPijinでは無くても許容されることが多いようである。ただし\cite{dictionary}に変種としての記載は無い
 \end{itemize}
 \begin{exe}
 \ex
@@ -103,16 +123,8 @@ and 2PL think \underline{that} PL thing DEIC PM happen truly PERF\\
 \end{exe}
 \begin{itemize}
   \item Pijin語の辞書\cite{dictionary}や彼の文法概要\cite{syntax}、その他の入門書\cite{yumi}には記載がない
-  \item 他の資料にも記載はない……と思っていたが、今見つけてしまった
+  \item Pijin語の教科書\cite{eric}にはごく簡単な説明と例文が示されていた(後述)
 \end{itemize}
-\cite{eric}
-\begin{quote}
-Some verbs in Pijin can take \underline{\texttt{dat*}} + SENTENCE as an object instead of a simple noun phrase.
-\begin{screen}
-NOTE: *There are many areas in the Solomons where \underline{\texttt{dat}} is not used: Speakers who don't use \underline{\texttt{dat}} will say that the two clauses with an intonation that suggests that they are two independent sentences, or use a word borrowed from a local language.
-\end{screen}
-\end{quote}
-
 \subparagraph{調査}
 (\exn{1}),(\exn{2})共に発表者が作った文である
 \begin{exe}
@@ -136,6 +148,59 @@ NOTE: *There are many areas in the Solomons where \underline{\texttt{dat}} is no
 
 その後60代のインフォーマント\footnote{マライタ島南部出身、母語はBaelelea[南東ソロモン諸語]}に尋ねたが、彼女はこのような傾向を見せず、(\exn{-1})から(\exn{-1}$'''$)すべての文章が等しく正しいと答えた。
 
+\cite{eric}\vspace{0.1in}
+\begin{quote}
+\begin{exe}
+  \exi{3.} Mi talem hem dat Bili hem i stap long Kukum. \\
+  `I told him that Billy lives in Kukum.'
+\end{exe}\vspace{0.1in}
+Some verbs in Pijin can take \underline{\texttt{dat*}} + SENTENCE as an object instead of a simple noun phrase.
+\begin{screen}
+NOTE: *There are many areas in the Solomons where \underline{\texttt{dat}} is not used: Speakers who don't use \underline{\texttt{dat}} will say that the two clauses with an intonation that suggests that they are two independent sentences, or use a word borrowed from a local language.
+\end{screen}
+\end{quote}
+\begin{itemize}
+  \item ラジオから録音した牧師の説話や読み上げてもらった際の録音を確認した
+  \item (1)短い発話では、動詞に続いて間を置かずに話される (2)ゆっくりの発話では、文が続くことを示すために動詞の語尾が下降しない という特徴があるように思われる
+  \footnote{これは通常の叙述文のイントネーションとの区別を可能にするためと思われる。通常の叙述文では文末の単語は下降する。
+
+  \begin{quote}
+    One common intonation pattern for declarative sentences starts at mid level (2), rises to a high level (3) on the last stressed syllable and then falls to a low level (1). \cite[10]{eric}
+    \begin{figure}[H]
+      \centering
+      \includegraphics[width=11cm]{intonation.png}
+      \caption{\footnotesize{\cite[10]{eric}}}
+    \end{figure}
+  \end{quote}}
+\end{itemize}
+\paragraph{英語との相違点} 関係節標識としての使用は無いか、非常に稀である
+\begin{itemize}
+  \item 英語では制限用法に限って\textit{that}を関係従属節の標識(関係代名詞)として用いることができる\citep[635-638]{english}
+  \item Pijin語では通常関係節標識は\textit{we}, \textit{hu} あるいは英語的な文体で稀に\textit{which}が用いられる
+  \item 私の観察ではこの用法はPijin語には存在しない: 完全に容認不可能かどうかは話者に確認する必要あり
+\end{itemize}
+\paragraph{olsem} 辞書\citep[157]{dictionary}の説明: 「～のような(like that, as if)」の意味のみ
+\begin{quote}
+  \begin{enumerate}
+    \item like, like this, like that; \textbf{Iu bae iu kuki olketa kabis ia olsem ia.} You must cook the vegetables like this.
+    \item \textit{sub.} as if; \textbf{Man toktok olsem hem bikman nao.} This man talks as if he were an important man.
+  \end{enumerate}
+\end{quote}
+\begin{itemize}
+  \item 聖書には\textit{olsem}も名詞従属節標識として登場する: 前述の意味に収まらない用例も多い。直接話法を導く例など(\exn{1})
+\end{itemize}
+\begin{exe}
+  \ex
+  \gll Nao olketa \underline{tok} \underline{olsem}, ``Bat bos, hemi garem plande finis ya."\\
+  TOP 3PL \underline{say} \underline{like} but boss 3SG-PM own many PERF DIEC\\
+  \glt They said, ``But boss, he already own many (items)."(LUK 19:25)
+\end{exe}
+\begin{itemize}
+  \item 聖書では、前に取る動詞によって\textit{dat}と使い分けている可能性が高い
+  \item 動詞+\textit{olsem}の用法 \textit{tok olsem} talk like: 459, \textit{sei olsem} say like: 184, \textit{duim olsem} do like: 75, \textit{stap olsem} be like: 66
+  \item 名詞+\textit{olsem}の用法も多い \textit{hemi olsem} it is like: 293, \textit{hem olsem} it (is) like: 194, \textit{olketa olsem} they (are) like: 184, \textit{yufala olsem} you(exc.) are like: 64
+  \item \textit{dat}の分布とは全く異なる。ただし、これらの数字は従属節標識としてではない形も含んでいる
+\end{itemize}
 \subsection{fo}
 \paragraph{従来の意味}
 \cite{prepositions} \footnote{(\exn{1}),(\exn{2})はグロス引用, (\exn{3})のグロスは発表者}
@@ -201,10 +266,26 @@ probably 2SG come \underline{to} destroy 1PL.EXC DEIC\\
 
 (\exn{0})との意味の違いはないが、こちらのほうがより「強い」印象を受けるという。\textit{fo}$+$単語$+$\textit{fo}の組み合わせは聖書コーパス中106件が見つかる。そのうちいくつが主語＋前置詞句の組み合わせかは数えていないが、元々2つの前置詞句からなっていた表現が、後ろの前置詞が省略されて節のようになったのかもしれない。ただし、それ以外の話者からこの置き換えが提案されることはなかった\footnote{7人で、Pijin語を母語とする高校生の話者も含む。(\exn{0})も(\exn{0}$'$)も同様に適格な文章であると判断された。}。
 
-\section{今後の展望}
-今回行った調査は非常に数が限られていて、特にPijin語が母語というインフォーマントをなかなか捕まえることができなかった。しかし、逆に国内の多様な言語状況の方から話を聞くことができたのは良かったように思う。
+\section{まとめ・今後の展望}
+Pijin語聖書のコーパス分析によって、\textit{dat}, \textit{fo}を従属節標識として頻繁に用いていることが明らかになった。これらはあくまで翻訳された書き言葉であり、本来話し言葉であるPijin語の言語現象と呼ぶには疑念があったが、現地での容認度の調査によって、少なくとも首都ホニアラの話者にとっては、これらの用法がPijin語の枠組みの中で容認されていることが分かった。この調査は10名程度のごく少数の話者への容認度調査であったが、帰国後ラジオの録音等を確認したところ、\textit{dat}, \textit{fo}いずれも従属節標識として用いられている発話例を発見することができた。
 
-今後卒論の締切までにソロモン諸島に滞在できる予定は無いが、ソロモン諸島出身の京都大学への留学生に協力を了解してもらっているので、今後もある程度の調査を続けられる予定である。
+ラジオで録音した牧師の演説と思われる発話\footnote{この牧師はソロモン諸島の最近の疾病を聖書の内容と関連付けて演説している。語彙や短い構文で時折英語が混じることはあるが、内容自体は英語からの翻訳ではないと推測できる。}では、\textit{dat}, \textit{fo}いずれも非常によく登場する。長い文章ではあるが、双方が同時に出てくる発話すらある(\exn{1})。
+
+\begin{exe}
+\ex
+\gll Bat taem yu lukim gospel, ... yu mas save dat end hemi kolsap nao fo hemi kam..\\
+but when 2SG look gospel ... 2SG must think that end 3SG-PM close TOP for 3SG-PM come\\
+\glt `But when you look at the gospel, you must think that the end is coming soon.'
+\end{exe}
+
+宗教関連の例文が多いことは気がかりである。実際、1人のインフォーマントは調査の際に、「宗教的な感じがするが、許容できる」といった発言をしていた。特に\textit{dat}については、本来それを使わずにイントネーションで従属節を示す方法があることから、わざわざ使用するのは勿体ぶったような印象を受けるかもしれない。\textit{fo}については、話者がマングローブの管理を語る動画\citep{manguru}にも用例が見つかる\footnote{\textit{is}の導入に見られるように、この話者の発話は英語的な要素が強い(脚注4(iv)と同一の話者である)。しかし、私の意見では、これは少なくとも都市部では一般的な発話である。}。
+
+\begin{exe}
+\ex
+\gll Hem nao olsem main objective nao is fo yumi stadim, documentim all mangrove blo yumi...\\
+3SG TOP like main objective TOP (is) for 2SG.PL study document all mangrove POSS 2SG.INC\\
+\glt `Main objective for us is to study and document all mangroves that we share.'\citep[20分4秒]{manguru}
+\end{exe}
 
 \textit{fo}, \textit{dat}いずれも聖書に存在している従属節標識としての用法があることは分かったので、今後はその用法をさらに詳しく見ていく予定である。Pijin語のまとまった文法書は出版されていない\cite{syntax}ので、語彙供給源にもなっている英語の文法書\cite{english}と照らし合わせ、どの用法がPijin語で表現できるか試していく。
 
