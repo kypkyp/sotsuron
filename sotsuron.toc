@@ -6,9 +6,11 @@
 \contentsline {section}{\numberline {2.2}名詞節を形成する従属節標識として}{6}
 \contentsline {subsection}{\numberline {2.2.1}聖書中の用法}{6}
 \contentsline {subsection}{\numberline {2.2.2}現地調査}{7}
-\contentsline {section}{\numberline {2.3}考察}{7}
-\contentsline {chapter}{\numberline {第3章}fo}{8}
-\contentsline {section}{\numberline {3.1}既存の意味}{8}
-\contentsline {section}{\numberline {3.2}聖書中の用法}{8}
-\contentsline {section}{\numberline {3.3}現地調査}{8}
-\contentsline {chapter}{\numberline {第4章}結論}{9}
+\contentsline {section}{\numberline {2.3}考察}{8}
+\contentsline {subsection}{\numberline {2.3.1}英語のthat節との比較}{8}
+\contentsline {subsection}{\numberline {2.3.2}olsem節との使い分け}{8}
+\contentsline {chapter}{\numberline {第3章}fo}{9}
+\contentsline {section}{\numberline {3.1}既存の意味}{9}
+\contentsline {section}{\numberline {3.2}聖書中の用法}{9}
+\contentsline {section}{\numberline {3.3}現地調査}{9}
+\contentsline {chapter}{\numberline {第4章}結論}{10}

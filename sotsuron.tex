@@ -10,8 +10,11 @@
 \usepackage{float}
 \usepackage{ascmac}
 \usepackage{pxrubrica}
+\usepackage{remreset}
 
+\makeatletter\@removefromreset{footnote}{chapter}\makeatother
 \bibpunct[: ]{(}{)}{,}{a}{ }{,}
+\renewcommand{\theenumi}{\alph{enumi}}
 %
 \newcounter{tempcnt}
 \newcommand{\exn}[1]{%
