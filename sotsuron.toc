@@ -11,9 +11,9 @@
 \contentsline {section}{\numberline {2.3}考察}{10}
 \contentsline {subsection}{\numberline {2.3.1}発音}{10}
 \contentsline {subsection}{\numberline {2.3.2}英語のthat節との比較}{11}
-\contentsline {subsection}{\numberline {2.3.3}olsem節との使い分け}{12}
-\contentsline {chapter}{\numberline {第3章}fo}{13}
-\contentsline {section}{\numberline {3.1}既存の意味}{13}
-\contentsline {section}{\numberline {3.2}聖書中の用法}{13}
-\contentsline {section}{\numberline {3.3}現地調査}{13}
-\contentsline {chapter}{\numberline {第4章}結論}{14}
+\contentsline {subsection}{\numberline {2.3.3}olsem節}{12}
+\contentsline {chapter}{\numberline {第3章}fo}{14}
+\contentsline {section}{\numberline {3.1}既存の意味}{14}
+\contentsline {section}{\numberline {3.2}聖書中の用法}{14}
+\contentsline {section}{\numberline {3.3}現地調査}{14}
+\contentsline {chapter}{\numberline {第4章}結論}{15}
