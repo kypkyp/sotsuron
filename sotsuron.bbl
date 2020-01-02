@@ -1,0 +1,99 @@
+\begin{thebibliography}{16}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Chafe and Tannen(1987)]{chafe}
+Wallace Chafe and Deborah Tannen.
+\newblock The relation between written and spoken language.
+\newblock \emph{Annual Review of Anthropology}, 16:\penalty0 383--407, 1987.
+
+\bibitem[Huebner and Horoi(1979)]{eric}
+Thom Huebner and Stephen~Rex Horoi.
+\newblock \emph{Solomon Islands Pijin: Grammar Handbook}.
+\newblock Peace Corps Language Handbook Series. Peace Corps, Washington D.C.,
+  1979.
+
+\bibitem[IUCN(2014)]{manguru}
+International Union for Conservation of~Nature IUCN.
+\newblock Solomon islands: living with mangroves, 2014.
+\newblock \url{https://www.youtube.com/watch?v=oHAu852A1bM} (動画)
+  (2019年12月2日閲覧).
+
+\bibitem[Jourdan(1985)]{bae}
+Christine Jourdan.
+\newblock Creolisation, nativisation or substrate influence: what is happening
+  to "bae" in solomon islands pijin.
+\newblock \emph{Pacific Linguistics A}, 72:\penalty0 67--96, 1985.
+
+\bibitem[Jourdan(1989)]{nativization}
+Christine Jourdan.
+\newblock Nativization and anglicization in solomon islands pijin.
+\newblock \emph{World Englishes}, 8\penalty0 (1):\penalty0 25--35, 1989.
+
+\bibitem[Jourdan(2004)]{syntax}
+Christine Jourdan.
+\newblock Solomon islands pijin: morphology and syntax.
+\newblock In E.W. Schneider, editor, \emph{A Handbook of Varieties of English:
+  Morphology and syntax}, pages 702--719. Mouton de Gruyter, Berlin, 2004.
+
+\bibitem[Jourdan and Maebiru(2002)]{dictionary}
+Christine Jourdan and Ellen Maebiru.
+\newblock \emph{Pijin : a trilingual cultural dictionary : Pijin-Inglis-Franis,
+  Pijin-English-French, Pijin-Anglais-Fran\c{c}ais}.
+\newblock Number 526 in Pacific linguistics. Australian National University,
+  Canberra, 2002.
+
+\bibitem[Jourdan and Selbach(2004)]{phonology}
+Christine Jourdan and Rachel Selbach.
+\newblock Solomon islands pijin: phonology and phonetics.
+\newblock In B.~Kortmann, editor, \emph{A Handbook of Varieties of English:
+  Phonology and phonetics}, pages 690--791. Mouton de Gruyter, Berlin, 2004.
+
+\bibitem[Keesing(1988)]{keesing}
+R.M. Keesing.
+\newblock \emph{Melanesian Pidgin and the Oceanic Substrate}.
+\newblock Stanford University Press, California, 1988.
+
+\bibitem[Lee(1985)]{rr2}
+Ernest~W. Lee, editor.
+\newblock \emph{Buk fo ridim an raetem Pijin: Buk 2}.
+\newblock Pijin Literacy Project of the Solomon Islands Christian Association,
+  Honiara, 1985.
+
+\bibitem[Lee(1996)]{prepositions}
+Ernest~W. Lee.
+\newblock On prepositions in solomon islands pijin.
+\newblock \emph{Pacific Linguistics C}, 133:\penalty0 383--401, 1996.
+
+\bibitem[Quirk et~al.(1985)Quirk, Greenbaum, Leech, and Svartvik]{english}
+Randolph Quirk, Sidney Greenbaum, Geoffrey Leech, and Jan Svartvik.
+\newblock \emph{A Comprehensive Grammar of the English Language}.
+\newblock Longman, London, 1985.
+
+\bibitem[Simons(1985)]{malaitan}
+Linda Simons.
+\newblock Malaitan influence on two grammatical particles in solomon islands
+  pijin.
+\newblock \emph{Pacific Linguistics A}, 72:\penalty0 53--65, 1985.
+
+\bibitem[Simons and Young(1978)]{yumi}
+Linda Simons and Hugh Young.
+\newblock \emph{Pijin blong yumi (A guide to Solomon Islands Pijin)}.
+\newblock Solomon Islands Christian Association, Honiara, 1978.
+
+\bibitem[{The SolomonTimes.com}(2008)]{solomontimes}
+{The SolomonTimes.com}.
+\newblock Launch of new pidgin bible, 2008.
+\newblock
+  \url{https://www.solomontimes.com/news/launch-of-new-pidgin-bible/1994}
+  (2019年12月21日閲覧).
+
+\bibitem[Todd(1984)]{todd}
+Loreto Todd.
+\newblock \emph{Modern Englishes : pidgins and creoles}.
+\newblock Basil Blackwell, Oxford, 1984.
+
+\end{thebibliography}
