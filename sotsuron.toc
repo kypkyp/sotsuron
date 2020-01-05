@@ -2,7 +2,7 @@
 \contentsline {section}{\numberline {1.1}Pijin語について}{3}
 \contentsline {subsection}{\numberline {1.1.1}言語状況}{3}
 \contentsline {subsection}{\numberline {1.1.2}英語との関係}{3}
-\contentsline {section}{\numberline {1.2}調査の方法}{4}
+\contentsline {section}{\numberline {1.2}調査の方法}{5}
 \contentsline {chapter}{\numberline {第2章}dat}{6}
 \contentsline {section}{\numberline {2.1}従来の意味}{6}
 \contentsline {section}{\numberline {2.2}従属節標識として}{7}
